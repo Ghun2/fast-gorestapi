@@ -1,0 +1,12 @@
+database:
+  user: root
+  password: passwording
+  net: tcp
+  addr: localhost:3306
+  dbname: MYDB
+  allowNativePasswords: true
+  params:
+    parseTime: "true"
+
+server:
+  address: 8080
